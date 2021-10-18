@@ -1,0 +1,16 @@
+{
+    "name": "marionpatinet/composer",
+    "description": "Projet quete composer",
+    "autoload": {
+        "psr-4": {
+            "Marionpatinet\\Composer\\": "src/Wcs"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marionptnt",
+            "email": "dev.marionpatinet@gmail.com"
+        }
+    ],
+    "require": {}
+}
