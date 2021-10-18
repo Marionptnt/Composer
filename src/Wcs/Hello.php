@@ -1,13 +1,13 @@
 <?php
 
-namespace Wcs;
+namespace App\Wcs;
 
 class Hello
 {
     
-    static function talk()
+    public function talk()
     {
-      require 'Hello world';
+      return 'Hello world';
     }
 }
 

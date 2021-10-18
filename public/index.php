@@ -1,5 +1,7 @@
 <?php
+require __DIR__ . '/../vendor/autoload.php';
 
-require '/src/Wcs/Hello.php';
 
-Hello::talk();
+$hello = new App\Wcs\Hello();
+
+echo $hello->talk();

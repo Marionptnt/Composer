@@ -3,7 +3,7 @@
     "description": "Projet quete composer",
     "autoload": {
         "psr-4": {
-            "Marionpatinet\\Composer\\": "src/Wcs"
+            "App\\": "src/"
         }
     },
     "authors": [

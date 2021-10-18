@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit90579433ee7be19f0d95fbd6488779d2
 {
     public static $prefixLengthsPsr4 = array (
-        'M' => 
+        'A' => 
         array (
-            'Marionpatinet\\Composer\\' => 23,
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Marionpatinet\\Composer\\' => 
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
